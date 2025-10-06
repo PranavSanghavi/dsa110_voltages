@@ -275,11 +275,11 @@ class BaseAntennaProcessor(ABC):
         pass
 
 # ============================================================================
-# DEDISPERSION ANALYZER CLASS
+# TIME SERIES PLOTTER CLASS
 # ============================================================================
 
-class DedispAnalyzer(BaseAntennaProcessor):
-    """A class for analyzing dedispersed radio astronomy data files."""
+class TimeSeriesPlotter(BaseAntennaProcessor):
+    """A class for analyzing time series data."""
     
     def __init__(self, files_dir, ant_flagged=None):
         super().__init__(files_dir, ant_flagged)
