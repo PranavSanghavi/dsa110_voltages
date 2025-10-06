@@ -825,11 +825,13 @@ void process_block_vectorized(uint8_t *block_data, int antenna_index, int time_i
             pol1_data[i] = block_data[channel_offset + 1];
         }
         
-        // Vectorized power calculation
+        // Vectorized power calculation (skip for raw mode)
         float pol0_powers[vector_size];
         float pol1_powers[vector_size];
-        calculate_power_vectorized(pol0_data, pol0_powers, vector_size);
-        calculate_power_vectorized(pol1_data, pol1_powers, vector_size);
+        if (config->output_mode != OUTPUT_MODE_RAW) {
+            calculate_power_vectorized(pol0_data, pol0_powers, vector_size);
+            calculate_power_vectorized(pol1_data, pol1_powers, vector_size);
+        }
         
         // Store results using SoA layout
         for (int i = 0; i < vector_size; i++) {
@@ -890,15 +892,18 @@ void process_block_vectorized(uint8_t *block_data, int antenna_index, int time_i
     for (int channel_in_subband = full_vectors * vector_size; channel_in_subband < NUM_CHANNELS_PER_SUBBAND; channel_in_subband++) {
         float pol0_power = 0.0f, pol1_power = 0.0f;
         
-        for (int pol = 0; pol < NUM_POLARIZATIONS; pol++) {
-            size_t offset = base_offset + (size_t)channel_in_subband * SAMPLES_PER_BLOCK * NUM_POLARIZATIONS + pol;
-            
-            int8_t real_part, imag_part;
-            unpack_4bit_complex(block_data[offset], &real_part, &imag_part);
-            float power = (float)real_part * (float)real_part + (float)imag_part * (float)imag_part;
-            
-            if (pol == 0) pol0_power = power;
-            else pol1_power = power;
+        // Only compute power if not in raw mode
+        if (config->output_mode != OUTPUT_MODE_RAW) {
+            for (int pol = 0; pol < NUM_POLARIZATIONS; pol++) {
+                size_t offset = base_offset + (size_t)channel_in_subband * SAMPLES_PER_BLOCK * NUM_POLARIZATIONS + pol;
+                
+                int8_t real_part, imag_part;
+                unpack_4bit_complex(block_data[offset], &real_part, &imag_part);
+                float power = (float)real_part * (float)real_part + (float)imag_part * (float)imag_part;
+                
+                if (pol == 0) pol0_power = power;
+                else pol1_power = power;
+            }
         }
         
         int global_channel_index = subband_index * NUM_CHANNELS_PER_SUBBAND + channel_in_subband;
@@ -2325,7 +2330,7 @@ int main(int argc, char* argv[]) {
     
     // Parse command line arguments for input/output directories and DM value
     int opt;
-    while ((opt = getopt(argc, argv, "i:o:c:d:DMt:T:SPR:s:e:I:J:")) != -1) {
+    while ((opt = getopt(argc, argv, "i:o:c:d:t:T:s:e:I:J:DMSPR")) != -1) {
         switch (opt) {
             case 'i': config.input_directory = optarg; break; // Input directory
             case 'o': config.output_directory = optarg; break; // Output directory
