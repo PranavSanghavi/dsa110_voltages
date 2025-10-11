@@ -150,7 +150,7 @@ from plotter import RawVoltages
 raw_dir = "250914hbqw_out/raw_voltages"
 
 # Create a plotter instance
-raw_plotter = RawVoltagesraw_dir)
+raw_plotter = RawVoltages(raw_dir)
 
 # Scan for metadata (does not load full data into memory)
 raw_plotter.load_all_data()
