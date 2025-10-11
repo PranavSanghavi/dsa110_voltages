@@ -100,13 +100,13 @@ Here are some examples of how to use the plotter classes.
 #### Analyzing a Dedispersed Time Series
 
 ```python
-from plotter import TimeSeriesPlotter
+from plotter import TimeSeries
 
 # Point to the directory containing the .dedisp files
 output_dir = "250914hbqw_out/time_series"
 
 # Create an analyzer instance
-analyzer = TimeSeriesPlotter(output_dir)
+analyzer = TimeSeries(output_dir)
 
 # Load data for all antennas
 analyzer.load_all_data()
@@ -124,13 +124,13 @@ analyzer.plot_snr_vs_time_ant(ant=5)
 #### Plotting a Dynamic Spectrum (Waterfall)
 
 ```python
-from plotter import DSA110WaterfallPlotter
+from plotter import Dynamic Spectra
 
 # Point to the directory containing the .spec files
 spectra_dir = "250914hbqw_out/spectra"
 
 # Create a plotter instance
-waterfall_plotter = DSA110WaterfallPlotter(spectra_dir)
+waterfall_plotter = DynamicSpectra(spectra_dir)
 
 # Plot the waterfall for a single antenna
 waterfall_plotter.plot_waterfall(antenna=15)
@@ -144,13 +144,13 @@ waterfall_plotter.plot_incoherent_sum(freq_bin=4, time_bin=16)
 #### Plotting Raw Voltage Data
 
 ```python
-from plotter import DSA110RawVoltagePlotter
+from plotter import RawVoltages
 
 # Point to the directory containing the .raw files
 raw_dir = "250914hbqw_out/raw_voltages"
 
 # Create a plotter instance
-raw_plotter = DSA110RawVoltagePlotter(raw_dir)
+raw_plotter = RawVoltagesraw_dir)
 
 # Scan for metadata (does not load full data into memory)
 raw_plotter.load_all_data()

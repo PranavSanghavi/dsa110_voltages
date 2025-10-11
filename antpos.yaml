@@ -1,0 +1,585 @@
+1:
+  Station: DSA-001
+  Latitude: 37.2333752
+  Longitude: -118.2856408
+  Elevation: 1182.6
+2:
+  Station: DSA-002
+  Latitude: 37.2333752
+  Longitude: -118.2855760
+  Elevation: 1182.6
+3:
+  Station: DSA-003
+  Latitude: 37.2333752
+  Longitude: -118.2855112
+  Elevation: 1182.6
+4:
+  Station: DSA-004
+  Latitude: 37.2333752
+  Longitude: -118.2854464
+  Elevation: 1182.6
+5:
+  Station: DSA-005
+  Latitude: 37.2333752
+  Longitude: -118.2853816
+  Elevation: 1182.6
+6:
+  Station: DSA-006
+  Latitude: 37.2333752
+  Longitude: -118.2853168
+  Elevation: 1182.6
+7:
+  Station: DSA-007
+  Latitude: 37.2333752
+  Longitude: -118.2852520
+  Elevation: 1182.6
+8:
+  Station: DSA-008
+  Latitude: 37.2333752
+  Longitude: -118.2851872
+  Elevation: 1182.6
+9:
+  Station: DSA-009
+  Latitude: 37.2333752
+  Longitude: -118.2851224
+  Elevation: 1182.6
+10:
+  Station: DSA-010
+  Latitude: 37.2333752
+  Longitude: -118.2850576
+  Elevation: 1182.6
+11:
+  Station: DSA-011
+  Latitude: 37.2333752
+  Longitude: -118.2849928
+  Elevation: 1182.6
+12:
+  Station: DSA-012
+  Latitude: 37.2333752
+  Longitude: -118.2849280
+  Elevation: 1182.6
+13:
+  Station: DSA-013
+  Latitude: 37.2333752
+  Longitude: -118.2848632
+  Elevation: 1182.6
+14:
+  Station: DSA-014
+  Latitude: 37.2333752
+  Longitude: -118.2847984
+  Elevation: 1182.6
+15:
+  Station: DSA-015
+  Latitude: 37.2333752
+  Longitude: -118.2847336
+  Elevation: 1182.6
+16:
+  Station: DSA-016
+  Latitude: 37.2333752
+  Longitude: -118.2846688
+  Elevation: 1182.6
+17:
+  Station: DSA-017
+  Latitude: 37.2333752
+  Longitude: -118.2846040
+  Elevation: 1182.6
+18:
+  Station: DSA-018
+  Latitude: 37.2333752
+  Longitude: -118.2845392
+  Elevation: 1182.6
+19:
+  Station: DSA-019
+  Latitude: 37.2333752
+  Longitude: -118.2844744
+  Elevation: 1182.6
+20:
+  Station: DSA-020
+  Latitude: 37.2333752
+  Longitude: -118.2844096
+  Elevation: 1182.6
+21:
+  Station: DSA-021
+  Latitude: 37.2333752
+  Longitude: -118.2843448
+  Elevation: 1182.6
+22:
+  Station: DSA-022
+  Latitude: 37.2333752
+  Longitude: -118.2842799
+  Elevation: 1182.6
+23:
+  Station: DSA-023
+  Latitude: 37.2333752
+  Longitude: -118.2835671
+  Elevation: 1182.6
+24:
+  Station: DSA-024
+  Latitude: 37.2333752
+  Longitude: -118.2835023
+  Elevation: 1182.6
+25:
+  Station: DSA-025
+  Latitude: 37.2333752
+  Longitude: -118.2834375
+  Elevation: 1182.6
+26:
+  Station: DSA-026
+  Latitude: 37.2333752
+  Longitude: -118.2833727
+  Elevation: 1182.6
+27:
+  Station: DSA-027
+  Latitude: 37.2333752
+  Longitude: -118.2833079
+  Elevation: 1182.6
+28:
+  Station: DSA-028
+  Latitude: 37.2333752
+  Longitude: -118.2832431
+  Elevation: 1182.6
+29:
+  Station: DSA-029
+  Latitude: 37.2333752
+  Longitude: -118.2829839
+  Elevation: 1182.6
+30:
+  Station: DSA-030
+  Latitude: 37.2333752
+  Longitude: -118.2827247
+  Elevation: 1182.6
+31:
+  Station: DSA-031
+  Latitude: 37.2333752
+  Longitude: -118.2826599
+  Elevation: 1182.6
+32:
+  Station: DSA-032
+  Latitude: 37.2333752
+  Longitude: -118.2825951
+  Elevation: 1182.6
+33:
+  Station: DSA-033
+  Latitude: 37.2333752
+  Longitude: -118.2825303
+  Elevation: 1182.6
+34:
+  Station: DSA-034
+  Latitude: 37.2333752
+  Longitude: -118.2824655
+  Elevation: 1182.6
+35:
+  Station: DSA-035
+  Latitude: 37.2333752
+  Longitude: -118.2824007
+  Elevation: 1182.6
+36:
+  Station: DSA-036
+  Latitude: 37.2333752
+  Longitude: -118.2821415
+  Elevation: 1182.6
+37:
+  Station: DSA-037
+  Latitude: 37.2333752
+  Longitude: -118.2820767
+  Elevation: 1182.6
+38:
+  Station: DSA-038
+  Latitude: 37.2333752
+  Longitude: -118.2820119
+  Elevation: 1182.6
+39:
+  Station: DSA-039
+  Latitude: 37.2333752
+  Longitude: -118.2819471
+  Elevation: 1182.6
+40:
+  Station: DSA-040
+  Latitude: 37.2333752
+  Longitude: -118.2818823
+  Elevation: 1182.6
+41:
+  Station: DSA-041
+  Latitude: 37.2333752
+  Longitude: -118.2818175
+  Elevation: 1182.6
+42:
+  Station: DSA-042
+  Latitude: 37.2333752
+  Longitude: -118.2817527
+  Elevation: 1182.6
+43:
+  Station: DSA-043
+  Latitude: 37.2333752
+  Longitude: -118.2816878
+  Elevation: 1182.6
+44:
+  Station: DSA-044
+  Latitude: 37.2333752
+  Longitude: -118.2816230
+  Elevation: 1182.6
+45:
+  Station: DSA-045
+  Latitude: 37.2333752
+  Longitude: -118.2815582
+  Elevation: 1182.6
+46:
+  Station: DSA-046
+  Latitude: 37.2333752
+  Longitude: -118.2814934
+  Elevation: 1182.6
+47:
+  Station: DSA-047
+  Latitude: 37.2333752
+  Longitude: -118.2814286
+  Elevation: 1182.6
+48:
+  Station: DSA-048
+  Latitude: 37.2333752
+  Longitude: -118.2813638
+  Elevation: 1182.6
+49:
+  Station: DSA-049
+  Latitude: 37.2333752
+  Longitude: -118.2812990
+  Elevation: 1182.6
+50:
+  Station: DSA-050
+  Latitude: 37.2333752
+  Longitude: -118.2812342
+  Elevation: 1182.6
+51:
+  Station: DSA-051
+  Latitude: 37.2333752
+  Longitude: -118.2811694
+  Elevation: 1182.6
+52:
+  Station: DSA-052
+  Latitude: 37.2334531
+  Longitude: -118.2834051
+  Elevation: 1182.6
+53:
+  Station: DSA-053
+  Latitude: 37.2335311
+  Longitude: -118.2834051
+  Elevation: 1182.6
+54:
+  Station: DSA-054
+  Latitude: 37.2336091
+  Longitude: -118.2834051
+  Elevation: 1182.6
+55:
+  Station: DSA-055
+  Latitude: 37.2336871
+  Longitude: -118.2834051
+  Elevation: 1182.6
+56:
+  Station: DSA-056
+  Latitude: 37.2337650
+  Longitude: -118.2834051
+  Elevation: 1182.6
+57:
+  Station: DSA-057
+  Latitude: 37.2338430
+  Longitude: -118.2834051
+  Elevation: 1182.6
+58:
+  Station: DSA-058
+  Latitude: 37.2339210
+  Longitude: -118.2834051
+  Elevation: 1182.6
+59:
+  Station: DSA-059
+  Latitude: 37.2339989
+  Longitude: -118.2834051
+  Elevation: 1182.6
+60:
+  Station: DSA-060
+  Latitude: 37.2340769
+  Longitude: -118.2834051
+  Elevation: 1182.6
+61:
+  Station: DSA-061
+  Latitude: 37.2341549
+  Longitude: -118.2834051
+  Elevation: 1182.6
+62:
+  Station: DSA-062
+  Latitude: 37.2342328
+  Longitude: -118.2834051
+  Elevation: 1182.6
+63:
+  Station: DSA-063
+  Latitude: 37.2343108
+  Longitude: -118.2834051
+  Elevation: 1182.6
+64:
+  Station: DSA-064
+  Latitude: 37.2343888
+  Longitude: -118.2834051
+  Elevation: 1182.6
+65:
+  Station: DSA-065
+  Latitude: 37.2344667
+  Longitude: -118.2834051
+  Elevation: 1182.6
+66:
+  Station: DSA-066
+  Latitude: 37.2345447
+  Longitude: -118.2834051
+  Elevation: 1182.6
+67:
+  Station: DSA-067
+  Latitude: 37.2346227
+  Longitude: -118.2834051
+  Elevation: 1182.6
+68:
+  Station: DSA-068
+  Latitude: 37.2347006
+  Longitude: -118.2834051
+  Elevation: 1182.6
+69:
+  Station: DSA-069
+  Latitude: 37.2347786
+  Longitude: -118.2834051
+  Elevation: 1182.6
+70:
+  Station: DSA-070
+  Latitude: 37.2348566
+  Longitude: -118.2834051
+  Elevation: 1182.6
+71:
+  Station: DSA-071
+  Latitude: 37.2349345
+  Longitude: -118.2834051
+  Elevation: 1182.6
+72:
+  Station: DSA-072
+  Latitude: 37.2350125
+  Longitude: -118.2834051
+  Elevation: 1182.6
+73:
+  Station: DSA-073
+  Latitude: 37.2350905
+  Longitude: -118.2834051
+  Elevation: 1182.6
+74:
+  Station: DSA-074
+  Latitude: 37.2351684
+  Longitude: -118.2834051
+  Elevation: 1182.6
+75:
+  Station: DSA-075
+  Latitude: 37.2352464
+  Longitude: -118.2834051
+  Elevation: 1182.6
+76:
+  Station: DSA-076
+  Latitude: 37.2353244
+  Longitude: -118.2834051
+  Elevation: 1182.6
+77:
+  Station: DSA-077
+  Latitude: 37.2354023
+  Longitude: -118.2834051
+  Elevation: 1182.6
+78:
+  Station: DSA-078
+  Latitude: 37.2354803
+  Longitude: -118.2834051
+  Elevation: 1182.6
+79:
+  Station: DSA-079
+  Latitude: 37.2355583
+  Longitude: -118.2834051
+  Elevation: 1182.6
+80:
+  Station: DSA-080
+  Latitude: 37.2356362
+  Longitude: -118.2834051
+  Elevation: 1182.6
+81:
+  Station: DSA-081
+  Latitude: 37.2357142
+  Longitude: -118.2834051
+  Elevation: 1182.6
+82:
+  Station: DSA-082
+  Latitude: 37.2357922
+  Longitude: -118.2834051
+  Elevation: 1182.6
+83:
+  Station: DSA-083
+  Latitude: 37.2358702
+  Longitude: -118.2834051
+  Elevation: 1182.6
+84:
+  Station: DSA-084
+  Latitude: 37.2359481
+  Longitude: -118.2834051
+  Elevation: 1182.6
+85:
+  Station: DSA-085
+  Latitude: 37.2360261
+  Longitude: -118.2834051
+  Elevation: 1182.6
+86:
+  Station: DSA-086
+  Latitude: 37.2361041
+  Longitude: -118.2834051
+  Elevation: 1182.6
+87:
+  Station: DSA-087
+  Latitude: 37.2361820
+  Longitude: -118.2834051
+  Elevation: 1182.6
+88:
+  Station: DSA-088
+  Latitude: 37.2362600
+  Longitude: -118.2834051
+  Elevation: 1182.6
+89:
+  Station: DSA-089
+  Latitude: 37.2363380
+  Longitude: -118.2834051
+  Elevation: 1182.6
+90:
+  Station: DSA-090
+  Latitude: 37.2364159
+  Longitude: -118.2834051
+  Elevation: 1182.6
+91:
+  Station: DSA-091
+  Latitude: 37.2364939
+  Longitude: -118.2834051
+  Elevation: 1182.6
+92:
+  Station: DSA-092
+  Latitude: 37.2365719
+  Longitude: -118.2834051
+  Elevation: 1182.6
+93:
+  Station: DSA-093
+  Latitude: 37.2366498
+  Longitude: -118.2834051
+  Elevation: 1182.6
+94:
+  Station: DSA-094
+  Latitude: 37.2367278
+  Longitude: -118.2834051
+  Elevation: 1182.6
+95:
+  Station: DSA-095
+  Latitude: 37.2368058
+  Longitude: -118.2834051
+  Elevation: 1182.6
+96:
+  Station: DSA-096
+  Latitude: 37.2368837
+  Longitude: -118.2834051
+  Elevation: 1182.6
+97:
+  Station: DSA-097
+  Latitude: 37.2369617
+  Longitude: -118.2834051
+  Elevation: 1182.6
+98:
+  Station: DSA-098
+  Latitude: 37.2370397
+  Longitude: -118.2834051
+  Elevation: 1182.6
+99:
+  Station: DSA-099
+  Latitude: 37.2371176
+  Longitude: -118.2834051
+  Elevation: 1182.6
+100:
+  Station: DSA-100
+  Latitude: 37.2371956
+  Longitude: -118.2834051
+  Elevation: 1182.6
+101:
+  Station: DSA-101
+  Latitude: 37.2372736
+  Longitude: -118.2834051
+  Elevation: 1182.6
+102:
+  Station: DSA-102
+  Latitude: 37.2373515
+  Longitude: -118.2834051
+  Elevation: 1182.6
+103:
+  Station: DSA-103
+  Latitude: 37.2300025
+  Longitude: -118.2812695
+  Elevation: 1181.3
+104:
+  Station: DSA-104
+  Latitude: 37.2352578
+  Longitude: -118.2768324
+  Elevation: 1182.4
+105:
+  Station: DSA-105
+  Latitude: 37.2429815
+  Longitude: -118.2767433
+  Elevation: 1184.0
+106:
+  Station: DSA-106
+  Latitude: 37.2470153
+  Longitude: -118.2767632
+  Elevation: 1185.3
+107:
+  Station: DSA-107
+  Latitude: 37.2485647
+  Longitude: -118.2767853
+  Elevation: 1185.9
+108:
+  Station: DSA-108
+  Latitude: 37.2499993
+  Longitude: -118.2767328
+  Elevation: 1186.5
+109:
+  Station: DSA-109
+  Latitude: 37.2499587
+  Longitude: -118.2794098
+  Elevation: 1186.2
+110:
+  Station: DSA-110
+  Latitude: 37.2499316
+  Longitude: -118.2838684
+  Elevation: 1185.9
+111:
+  Station: DSA-111
+  Latitude: 37.2499476
+  Longitude: -118.2861710
+  Elevation: 1186.0
+112:
+  Station: DSA-112
+  Latitude: 37.2499040
+  Longitude: -118.2879484
+  Elevation: 1185.3
+113:
+  Station: DSA-113
+  Latitude: 37.2499407
+  Longitude: -118.2912521
+  Elevation: 1186.3
+114:
+  Station: DSA-114
+  Latitude: 37.2499516
+  Longitude: -118.2958413
+  Elevation: 1184.6
+115:
+  Station: DSA-115
+  Latitude: 37.2449792
+  Longitude: -118.2951802
+  Elevation: 1180.8
+116:
+  Station: DSA-116
+  Latitude: 37.2314169
+  Longitude: -118.2945978
+  Elevation: 1178.1
+117:
+  Station: DSA-117
+  Latitude: 37.2315343
+  Longitude: -118.2966607
+  Elevation: 1178.3
