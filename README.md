@@ -124,7 +124,7 @@ analyzer.plot_snr_vs_time_ant(ant=5)
 #### Plotting a Dynamic Spectrum (Waterfall)
 
 ```python
-from plotter import Dynamic Spectra
+from plotter import DynamicSpectra
 
 # Point to the directory containing the .spec files
 spectra_dir = "250914hbqw_out/spectra"
